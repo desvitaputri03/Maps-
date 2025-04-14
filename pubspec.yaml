@@ -1,0 +1,45 @@
+name: flutter_app_desvita
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"  # Batasan SDK yang tepat untuk Flutter
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_styled_toast: ^2.0.0
+  cached_network_image: ^3.4.1
+  intl: ^0.19.0
+  google_maps_flutter: ^2.12.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - gambar/Micew.jpg
+    - gambar/berita1.jpeg
+    - gambar/berita2.jpeg
+    - gambar/berita3.jpeg
+    - gambar/berita4.jpg
+    - gambar/movie1.jpg
+    - gambar/movie2.png
+    - gambar/movie3.jpg
+    - gambar/movie4.jpg
+    - gambar/pic1.jpeg
+    - gambar/pic2.jpeg
+    - gambar/vhita.jpg
+    - gambar/jamgadang.jpg
+    - gambar/uld.jpg
+    - gambar/imgg.png
